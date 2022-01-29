@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.dkqa.android.beatbox.SoundViewModel" />
+    </data>
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:insetLeft="3dp"
+        android:insetTop="3dp"
+        android:insetRight="3dp"
+        android:insetBottom="3dp"
+        android:textColor="@color/design_default_color_background"
+        android:text="@{viewModel.title}"
+        tools:text="Sound name" />
+
+</layout>
