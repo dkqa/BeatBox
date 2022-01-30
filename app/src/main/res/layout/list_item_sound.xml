@@ -10,10 +10,8 @@
     </data>
 
     <Button
-        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:backgroundTint="@color/cardview_dark_background"
         android:insetLeft="3dp"
         android:insetTop="3dp"
         android:insetRight="3dp"
