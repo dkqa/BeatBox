@@ -20,6 +20,7 @@
         android:insetBottom="3dp"
         android:textColor="@color/design_default_color_background"
         android:text="@{viewModel.title}"
+        android:onClick="@{() -> viewModel.onButtonClicked()}"
         tools:text="Sound name" />
 
 </layout>
